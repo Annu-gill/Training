@@ -1,15 +1,15 @@
 ﻿// // // See https://aka.ms/new-console-template for more information
 // // Console.WriteLine("Hello, World!");
 
-class Program
-{
-    public static void Main(String[] args)
-    {
-        Day01.Run();
-        Day02.Run();
-        Day03.Run();
-    }
-}
+// class Program
+// {
+//     public static void Main(String[] args)
+//     {
+//         Day01.Run();
+//         Day02.Run();
+//         Day03.Run();
+//     }
+// }
 
 
 // using System;
@@ -283,5 +283,17 @@ class Program
 //     }
 
 
+
+// }
+
+
+
+// using System;
+// using System.Security.Cryptography.X509Certificates;
+// public class Program{
+//     public static void Main(String[] args)
+//     {
+//         class
+//     }
 
 // }
