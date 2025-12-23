@@ -245,29 +245,29 @@
 // }
 
 
-using System;
-public class Father
-{
-    public virtual string InterestOn() // virtual allows child to override
-    {
-        return "I like to play Cricket";
-    }
-}
-public class Son : Father
-{
-    public override string InterestOn()
-    {
-        return "Mobile Games";
-    }
-}
-class Program
-{
-    static void Main(string[] args)
-    {
-        Father f = new Father();
-        Console.WriteLine(f.InterestOn());
+// using System;
+// public class Father
+// {
+//     public virtual string InterestOn() // virtual allows child to override
+//     {
+//         return "I like to play Cricket";
+//     }
+// }
+// public class Son : Father
+// {
+//     public override string InterestOn()
+//     {
+//         return "Mobile Games";
+//     }
+// }
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Father f = new Father();
+//         Console.WriteLine(f.InterestOn());
         
-        Father s = new Son();   // Parent reference, child object
-        Console.WriteLine(s.InterestOn());
-    }
-}
+//         Father s = new Son();   // Parent reference, child object
+//         Console.WriteLine(s.InterestOn());
+//     }
+// }
