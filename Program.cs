@@ -1,16 +1,18 @@
 ﻿// // // See https://aka.ms/new-console-template for more information
 // // Console.WriteLine("Hello, World!");
 
-class Program
-{
-    public static void Main(String[] args)
-    {
-        Day01.Run();
-        Day02.Run();
-        Day03.Run();
-        Day05.Run();
-    }
-}
+// class Program
+// {
+//     public static void Main(String[] args)
+//     {
+//         Day01.Run();
+//         Day02.Run();
+//         Day03.Run();
+//         // Day05.Run();
+//         Day6.Print();
+
+//     }
+// }
 
 
 // using System;

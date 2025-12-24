@@ -1,5 +1,0 @@
-<Solution>
-  <Project Path="MainApp/MainApp.csproj" />
-  <Project Path="MathsLib/MathsLib.csproj" />
-  <Project Path="ScienceLib/ScienceLib.csproj" />
-</Solution>
