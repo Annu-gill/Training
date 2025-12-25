@@ -1,18 +1,31 @@
 ﻿// // // See https://aka.ms/new-console-template for more information
 // // Console.WriteLine("Hello, World!");
 
-// class Program
-// {
-//     public static void Main(String[] args)
-//     {
-//         Day01.Run();
-//         Day02.Run();
-//         Day03.Run();
-//         // Day05.Run();
-//         Day6.Print();
+using Day06;
 
-//     }
-// }
+class Program
+{
+    public static void Main(String[] args)
+    {
+        // Day01.Run();
+        // Day02.Run();
+        // Day03.Run();
+        // Day05.Run();
+
+        //Day 06
+        Visitor visitor=new Visitor();
+        visitor.NonVegEatter();
+        visitor.VegEatter();
+
+        IVegEatter vegEatter=new Visitor();
+        string vTaste=vegEatter.GetTaste();
+
+        INonVegEatter nonVegEatter=new Visitor();
+        string nvTaste=nonVegEatter.GetTaste();
+        Console.WriteLine(vTaste);
+        Console.WriteLine(nvTaste);
+    }
+}
 
 
 // using System;
