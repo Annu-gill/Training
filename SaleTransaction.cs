@@ -1,5 +1,10 @@
 namespace QuickMartTraders
 {
+    /// <summary>
+    /// Represents a single sales transaction in QuickMart Traders.
+    /// Stores details about the invoice, customer, item sold,
+    /// quantities, pricing, and profit or loss calculation.
+    /// </summary>
     public class SaleTransaction
     {
         public string InvoiceNo { get; set; }

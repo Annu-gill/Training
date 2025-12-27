@@ -1,5 +1,10 @@
 namespace MediSureClinicBilling
 {
+    /// <summary>
+    /// Represents a patient billing record in the MediSure Clinic system.
+    /// Stores patient details, charge breakdown, insurance status,
+    /// and final billing calculations.
+    /// </summary>
     public class PatientBill
     {
         public string BillId { get; set; }
