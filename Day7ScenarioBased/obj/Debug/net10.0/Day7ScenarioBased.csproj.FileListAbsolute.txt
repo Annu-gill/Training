@@ -1,0 +1,14 @@
+C:\Users\annug\LPUEx\Day7ScenarioBased\obj\Debug\net10.0\Day7ScenarioBased.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\annug\LPUEx\Day7ScenarioBased\obj\Debug\net10.0\Day7ScenarioBased.AssemblyInfoInputs.cache
+C:\Users\annug\LPUEx\Day7ScenarioBased\obj\Debug\net10.0\Day7ScenarioBased.AssemblyInfo.cs
+C:\Users\annug\LPUEx\Day7ScenarioBased\obj\Debug\net10.0\Day7ScenarioBased.csproj.CoreCompileInputs.cache
+C:\Users\annug\LPUEx\Day7ScenarioBased\bin\Debug\net10.0\Day7ScenarioBased.exe
+C:\Users\annug\LPUEx\Day7ScenarioBased\bin\Debug\net10.0\Day7ScenarioBased.deps.json
+C:\Users\annug\LPUEx\Day7ScenarioBased\bin\Debug\net10.0\Day7ScenarioBased.runtimeconfig.json
+C:\Users\annug\LPUEx\Day7ScenarioBased\bin\Debug\net10.0\Day7ScenarioBased.dll
+C:\Users\annug\LPUEx\Day7ScenarioBased\bin\Debug\net10.0\Day7ScenarioBased.pdb
+C:\Users\annug\LPUEx\Day7ScenarioBased\obj\Debug\net10.0\Day7ScenarioBased.dll
+C:\Users\annug\LPUEx\Day7ScenarioBased\obj\Debug\net10.0\refint\Day7ScenarioBased.dll
+C:\Users\annug\LPUEx\Day7ScenarioBased\obj\Debug\net10.0\Day7ScenarioBased.pdb
+C:\Users\annug\LPUEx\Day7ScenarioBased\obj\Debug\net10.0\Day7ScenarioBased.genruntimeconfig.cache
+C:\Users\annug\LPUEx\Day7ScenarioBased\obj\Debug\net10.0\ref\Day7ScenarioBased.dll

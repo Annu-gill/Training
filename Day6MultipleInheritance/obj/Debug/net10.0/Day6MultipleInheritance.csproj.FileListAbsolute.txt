@@ -1,0 +1,14 @@
+C:\Users\annug\LPUEx\Day6MultipleInheritance\bin\Debug\net10.0\Day6MultipleInheritance.exe
+C:\Users\annug\LPUEx\Day6MultipleInheritance\bin\Debug\net10.0\Day6MultipleInheritance.deps.json
+C:\Users\annug\LPUEx\Day6MultipleInheritance\bin\Debug\net10.0\Day6MultipleInheritance.runtimeconfig.json
+C:\Users\annug\LPUEx\Day6MultipleInheritance\bin\Debug\net10.0\Day6MultipleInheritance.dll
+C:\Users\annug\LPUEx\Day6MultipleInheritance\bin\Debug\net10.0\Day6MultipleInheritance.pdb
+C:\Users\annug\LPUEx\Day6MultipleInheritance\obj\Debug\net10.0\Day6MultipleInheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\annug\LPUEx\Day6MultipleInheritance\obj\Debug\net10.0\Day6MultipleInheritance.AssemblyInfoInputs.cache
+C:\Users\annug\LPUEx\Day6MultipleInheritance\obj\Debug\net10.0\Day6MultipleInheritance.AssemblyInfo.cs
+C:\Users\annug\LPUEx\Day6MultipleInheritance\obj\Debug\net10.0\Day6MultipleInheritance.csproj.CoreCompileInputs.cache
+C:\Users\annug\LPUEx\Day6MultipleInheritance\obj\Debug\net10.0\Day6MultipleInheritance.dll
+C:\Users\annug\LPUEx\Day6MultipleInheritance\obj\Debug\net10.0\refint\Day6MultipleInheritance.dll
+C:\Users\annug\LPUEx\Day6MultipleInheritance\obj\Debug\net10.0\Day6MultipleInheritance.pdb
+C:\Users\annug\LPUEx\Day6MultipleInheritance\obj\Debug\net10.0\Day6MultipleInheritance.genruntimeconfig.cache
+C:\Users\annug\LPUEx\Day6MultipleInheritance\obj\Debug\net10.0\ref\Day6MultipleInheritance.dll

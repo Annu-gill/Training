@@ -1,0 +1,14 @@
+C:\Users\annug\LPUEx\Day7MultipleInheritance\obj\Debug\net10.0\Day7MultipleInheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\annug\LPUEx\Day7MultipleInheritance\obj\Debug\net10.0\Day7MultipleInheritance.AssemblyInfoInputs.cache
+C:\Users\annug\LPUEx\Day7MultipleInheritance\obj\Debug\net10.0\Day7MultipleInheritance.AssemblyInfo.cs
+C:\Users\annug\LPUEx\Day7MultipleInheritance\obj\Debug\net10.0\Day7MultipleInheritance.csproj.CoreCompileInputs.cache
+C:\Users\annug\LPUEx\Day7MultipleInheritance\bin\Debug\net10.0\Day7MultipleInheritance.exe
+C:\Users\annug\LPUEx\Day7MultipleInheritance\bin\Debug\net10.0\Day7MultipleInheritance.deps.json
+C:\Users\annug\LPUEx\Day7MultipleInheritance\bin\Debug\net10.0\Day7MultipleInheritance.runtimeconfig.json
+C:\Users\annug\LPUEx\Day7MultipleInheritance\bin\Debug\net10.0\Day7MultipleInheritance.dll
+C:\Users\annug\LPUEx\Day7MultipleInheritance\bin\Debug\net10.0\Day7MultipleInheritance.pdb
+C:\Users\annug\LPUEx\Day7MultipleInheritance\obj\Debug\net10.0\Day7MultipleInheritance.dll
+C:\Users\annug\LPUEx\Day7MultipleInheritance\obj\Debug\net10.0\refint\Day7MultipleInheritance.dll
+C:\Users\annug\LPUEx\Day7MultipleInheritance\obj\Debug\net10.0\Day7MultipleInheritance.pdb
+C:\Users\annug\LPUEx\Day7MultipleInheritance\obj\Debug\net10.0\Day7MultipleInheritance.genruntimeconfig.cache
+C:\Users\annug\LPUEx\Day7MultipleInheritance\obj\Debug\net10.0\ref\Day7MultipleInheritance.dll
