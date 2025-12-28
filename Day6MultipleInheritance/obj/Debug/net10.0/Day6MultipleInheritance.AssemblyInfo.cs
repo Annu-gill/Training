@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Day6MultipleInheritance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5956f073df85dae54806f9b0b59e9117b0ab112")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01d189a7fd9333e7bcd047877423db25754f97fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Day6MultipleInheritance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Day6MultipleInheritance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
