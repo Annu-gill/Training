@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1Fundamentals", "Day1Fundamentals\Day1Fundamentals.csproj", "{86B80E5F-B4B4-1807-9D41-33721BB4F041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2ConditionalLoops", "Day2ConditionalLoops\Day2ConditionalLoops.csproj", "{9D731B80-F157-3E29-F716-E75FCC3EBBE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3PracticeQuestions", "Day3PracticeQuestions\Day3PracticeQuestions.csproj", "{A49A24CF-59F3-CC5A-BF80-7F4E5977BF69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4Oops", "Day4Oops\Day4Oops.csproj", "{7773EEA7-8D0D-3556-116D-249AFA76F36A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day5Abstraction", "Day5Abstraction\Day5Abstraction.csproj", "{BEF23B26-5014-DC28-FBE5-0521D07F6B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day6MultipleInheritance", "Day6MultipleInheritance\Day6MultipleInheritance.csproj", "{61861ACA-8CE9-4D28-A26A-04B9061286B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86B80E5F-B4B4-1807-9D41-33721BB4F041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B80E5F-B4B4-1807-9D41-33721BB4F041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B80E5F-B4B4-1807-9D41-33721BB4F041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B80E5F-B4B4-1807-9D41-33721BB4F041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D731B80-F157-3E29-F716-E75FCC3EBBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D731B80-F157-3E29-F716-E75FCC3EBBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D731B80-F157-3E29-F716-E75FCC3EBBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D731B80-F157-3E29-F716-E75FCC3EBBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49A24CF-59F3-CC5A-BF80-7F4E5977BF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49A24CF-59F3-CC5A-BF80-7F4E5977BF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49A24CF-59F3-CC5A-BF80-7F4E5977BF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49A24CF-59F3-CC5A-BF80-7F4E5977BF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7773EEA7-8D0D-3556-116D-249AFA76F36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7773EEA7-8D0D-3556-116D-249AFA76F36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7773EEA7-8D0D-3556-116D-249AFA76F36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7773EEA7-8D0D-3556-116D-249AFA76F36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF23B26-5014-DC28-FBE5-0521D07F6B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF23B26-5014-DC28-FBE5-0521D07F6B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF23B26-5014-DC28-FBE5-0521D07F6B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF23B26-5014-DC28-FBE5-0521D07F6B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61861ACA-8CE9-4D28-A26A-04B9061286B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61861ACA-8CE9-4D28-A26A-04B9061286B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61861ACA-8CE9-4D28-A26A-04B9061286B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61861ACA-8CE9-4D28-A26A-04B9061286B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1055FAFE-5AB3-4A34-BAB0-D3A5487683D5}
+	EndGlobalSection
+EndGlobal
