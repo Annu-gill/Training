@@ -6,6 +6,7 @@ namespace Day9_StudentIndexers
 {
     class Student(int rno, string name, string address, params string[] initialBooks)
     {
+        // if set is removed, create constructor with parameters and to work default constructors should also be called
         public int Rno { get; set; } = rno;
         public string? Name { get; set; } = name;
 
