@@ -7,19 +7,22 @@ using Day9_LearningCSharp;
     {
         static void Main(string[] args)
         {
-            YoungProfessional yp = new YoungProfessional();
+            // YoungProfessional yp = new YoungProfessional();
         
-            PartialClass p=new PartialClass();
-            p.MethodA();
-            p.MethodB();
+            // PartialClass p=new PartialClass();
+            // p.MethodA();
+            // p.MethodB();
 
-            Console.WriteLine(GeneralUses.GetRollNo());
-            Console.WriteLine(GeneralUses.GetRollNo());
+            // Console.WriteLine(GeneralUses.GetRollNo());
+            // Console.WriteLine(GeneralUses.GetRollNo());
 
+            string sent="I am fine.";
+            int count= sent.WordCount();
+            Console.WriteLine(count);
         }
     }
-
 }
+
 
 
 // can we use sealed class in abstract class
