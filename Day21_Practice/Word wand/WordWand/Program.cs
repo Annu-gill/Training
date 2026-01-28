@@ -37,7 +37,7 @@ class WordWand
         return string.Join(" ", words);
     }
 
-    static void Main()
+    public static void Main()
     {
         Console.WriteLine("Enter the sentence");
         string sentence = Console.ReadLine();

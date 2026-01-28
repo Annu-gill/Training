@@ -34,7 +34,7 @@ class PasswordGeneration
         return true;
     }
 
-    static void Main()
+    public static void Main()
     {
         Console.WriteLine("Enter the username");
         string username = Console.ReadLine();
