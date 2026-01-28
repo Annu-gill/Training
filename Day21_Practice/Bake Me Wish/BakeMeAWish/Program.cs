@@ -31,7 +31,7 @@ class CakeOrder
 
 class UserInterface
 {
-    static void Main()
+    public static void Main()
     {
         CakeOrder cakeOrder = new CakeOrder();
 

@@ -30,7 +30,7 @@ class Apartment
 
 class UserInterface
 {
-    static void Main()
+    public static void Main()
     {
         Apartment apartment = new Apartment();
 
