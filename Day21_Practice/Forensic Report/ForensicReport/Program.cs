@@ -1,73 +1,52 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Linq;
 
+/// <summary>
+/// Stores forensic report details and finds officers by report date.
+/// </summary>
 class ForensicReport
 {
     // Holds Reporting Officer Name as Key and Report Filed Date as Value
-    private Dictionary<string, DateTime> reportMap = new Dictionary<string, DateTime>();
-
+    private readonly Dictionary<string, DateTime> reports = [];
     // Adds report details to the map
-    public void addReportDetails(string reportingOfficerName, DateTime reportFiledDate)
+    public void AddReport(string officerName, DateTime filedDate)
     {
-        reportMap[reportingOfficerName] = reportFiledDate;
+        reports[officerName] = filedDate;
     }
-
     // Returns list of officers who filed reports on the given date
-    public List<string> getOfficersWhoFiledReportsOnDate(DateTime reportFiledDate)
+    public List<string> GetOfficersByDate(DateTime date)
     {
-        List<string> officers = new List<string>();
-
-        foreach (var report in reportMap)
-        {
-            if (report.Value.Date == reportFiledDate.Date)
-            {
-                officers.Add(report.Key);
-            }
-        }
-
-        return officers;
+        return reports
+            .Where(r => r.Value.Date == date.Date)
+            .Select(r => r.Key)
+            .ToList();
     }
 }
 
-class UserInterface
+class Program
 {
-    static void Main()
+    public static void Main()
     {
-        ForensicReport forensicReport = new ForensicReport();
+        ForensicReport report = new();
 
-        Console.WriteLine("Enter number of reports to be added");
-        int numberOfReports = int.Parse(Console.ReadLine());
+        Console.WriteLine("Enter number of reports:");
+        int n = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Enter the Forensic reports (Reporting Officer: Report Filed Date)");
-
-        for (int i = 0; i < numberOfReports; i++)
+        Console.WriteLine("Enter reports (Officer : yyyy-MM-dd)");
+        for (int i = 0; i < n; i++)
         {
-            string input = Console.ReadLine();
-            string[] parts = input.Split(':');
-
-            string officerName = parts[0].Trim();
-            string dateString = parts[1].Trim();
-
-            DateTime reportDate = DateTime.ParseExact(
-                dateString,
-                "yyyy-MM-dd",
-                CultureInfo.InvariantCulture
-            );
-
-            forensicReport.addReportDetails(officerName, reportDate);
+            string[] input = Console.ReadLine().Split(':');
+            string officer = input[0].Trim();
+            DateTime date = DateTime.Parse(input[1].Trim());
+            report.AddReport(officer, date);
         }
 
-        Console.WriteLine("Enter the filed date to identify the reporting officers");
+        Console.WriteLine("Enter date to search (yyyy-MM-dd):");
+        DateTime searchDate = DateTime.Parse(Console.ReadLine().Trim());
 
-        DateTime searchDate = DateTime.ParseExact(
-            Console.ReadLine().Trim(),
-            "yyyy-MM-dd",
-            CultureInfo.InvariantCulture
-        );
-
-        List<string> officers =
-            forensicReport.getOfficersWhoFiledReportsOnDate(searchDate);
+        List<string> officers = report.GetOfficersByDate(searchDate);
 
         if (officers.Count == 0)
         {
@@ -75,7 +54,7 @@ class UserInterface
         }
         else
         {
-            Console.WriteLine($"Reports filed on the {searchDate:yyyy-MM-dd} are by");
+            Console.WriteLine($"Reports filed on {searchDate:yyyy-MM-dd} are by:");
             foreach (string officer in officers)
             {
                 Console.WriteLine(officer);
