@@ -36,7 +36,7 @@ public class CalculatorTests
         // 4. Boolean & Nulls
         Assert.That(true, Is.True);
         string? nullString = null;
-        Assert.That(nullString, Is.Null); 
+        Assert.That(nullString, Is.Null);
 
         // 5. Collection Assertions
         var list = new List<int> { 1, 2, 3 };
@@ -45,6 +45,26 @@ public class CalculatorTests
         Assert.That(list, Is.Unique);
 
         // 6. Exception Assertions
+        Assert.Throws<DivideByZeroException>(() => _calc.Divide(10, 0));
+    }
+
+    [Test]
+    public void Throws_MultipleExceptions()
+    {
+        // Overflow from Add
+        Assert.Throws<OverflowException>(() => _calc.Add(int.MaxValue, 1));
+
+        // Null/empty name for GetGreeting
+        Assert.Throws<ArgumentNullException>(() => _calc.GetGreeting(null!));
+        Assert.Throws<ArgumentNullException>(() => _calc.GetGreeting(string.Empty));
+
+        // Invalid numeric input for Divide
+        Assert.Throws<ArgumentException>(() => _calc.Divide(double.NaN, 2));
+
+        // Business rule: negative divisor not allowed
+        Assert.Throws<ArgumentException>(() => _calc.Divide(10, -2));
+
+        // Divide by zero
         Assert.Throws<DivideByZeroException>(() => _calc.Divide(10, 0));
     }
 
